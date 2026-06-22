@@ -3,11 +3,13 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "Node",
+    "rootDir": "src",  // Buni qo'shing
+    "outDir": "dist",
     "strict": true,
     "skipLibCheck": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "dist"
+    "ignoreDeprecations": "6.0" // Deprecated xatosini o'chirish uchun
   },
   "include": ["src"]
 }
